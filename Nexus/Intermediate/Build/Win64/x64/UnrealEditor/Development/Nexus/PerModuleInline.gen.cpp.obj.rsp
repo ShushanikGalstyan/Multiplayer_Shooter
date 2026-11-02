@@ -1,0 +1,14 @@
+"C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/UnrealEditor/Development/Nexus/PerModuleInline.gen.cpp"
+@"C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/UnrealEditor/Development/Nexus/Nexus.Shared.rsp"
+/FI"C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/NexusEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/FI"C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/UnrealEditor/Development/Nexus/Definitions.Nexus.h"
+/Yu"C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/NexusEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h"
+/Fp"C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/NexusEditor/Development/UnrealEd/SharedPCH.UnrealEd.Project.ValApi.ValExpApi.Cpp20.h.pch"
+/Fo"C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/UnrealEditor/Development/Nexus/PerModuleInline.gen.cpp.obj"
+/experimental:log "C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/UnrealEditor/Development/Nexus/PerModuleInline.gen.cpp.sarif"
+/sourceDependencies "C:/Users/Shush/Desktop/Multiplayer_Shooter/Nexus/Intermediate/Build/Win64/x64/UnrealEditor/Development/Nexus/PerModuleInline.gen.cpp.dep.json"
+/nologo
+/TP
+/GR-
+/std:c++20
+/wd5054
