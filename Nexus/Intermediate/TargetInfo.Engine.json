@@ -1,0 +1,39 @@
+{
+	"Targets": [
+		{
+			"Name": "ChaosTestHarness",
+			"Path": "..\\..\\..\\..\\..\\..\\UE_5.8\\Engine\\Source\\Developer\\ChaosTestHarness\\ChaosTestHarness.Target.cs",
+			"Type": "Program"
+		},
+		{
+			"Name": "LiveLinkHub",
+			"Path": "..\\..\\..\\..\\..\\..\\UE_5.8\\Engine\\Source\\Programs\\LiveLinkHub\\Source\\LiveLinkHub.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "DotNetPerforceLib",
+			"Path": "..\\..\\..\\..\\..\\..\\UE_5.8\\Engine\\Source\\Programs\\Shared\\EpicGames.Perforce.Native\\DotNetPerforceLib.Target.cs",
+			"Type": "Program"
+		},
+		{
+			"Name": "IoStoreOnDemandTests",
+			"Path": "..\\..\\..\\..\\..\\..\\UE_5.8\\Engine\\Source\\Runtime\\Experimental\\IoStore\\Tests\\IoStoreOnDemandTests.Target.cs",
+			"Type": "Program"
+		},
+		{
+			"Name": "EventLoopUnitTests",
+			"Path": "..\\..\\..\\..\\..\\..\\UE_5.8\\Engine\\Source\\Runtime\\Online\\EventLoopTests\\EventLoopUnitTests.Target.cs",
+			"Type": "Program"
+		},
+		{
+			"Name": "UnrealEditor",
+			"Path": "..\\..\\..\\..\\..\\..\\UE_5.8\\Engine\\Source\\UnrealEditor.Target.cs",
+			"Type": "Editor"
+		},
+		{
+			"Name": "UnrealGame",
+			"Path": "..\\..\\..\\..\\..\\..\\UE_5.8\\Engine\\Source\\UnrealGame.Target.cs",
+			"Type": "Game"
+		}
+	]
+}

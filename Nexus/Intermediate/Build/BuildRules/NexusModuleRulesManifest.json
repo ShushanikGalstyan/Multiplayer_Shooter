@@ -1,6 +1,7 @@
 {
 	"SourceFiles": [
 		"C:\\Users\\Shush\\Desktop\\Multiplayer_Shooter\\Nexus\\Source\\Nexus\\Nexus.Build.cs",
+		"C:\\Users\\Shush\\Desktop\\Multiplayer_Shooter\\Nexus\\Plugins\\MultiplayerSessions\\Source\\MultiplayerSessions\\MultiplayerSessions.Build.cs",
 		"C:\\Users\\Shush\\Desktop\\Multiplayer_Shooter\\Nexus\\Source\\Nexus.Target.cs",
 		"C:\\Users\\Shush\\Desktop\\Multiplayer_Shooter\\Nexus\\Source\\NexusEditor.Target.cs"
 	],

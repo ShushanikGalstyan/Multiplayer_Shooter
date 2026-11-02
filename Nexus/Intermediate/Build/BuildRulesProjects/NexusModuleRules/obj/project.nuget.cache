@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "mPbUO/dNzio=",
+  "dgSpecHash": "UcEHtgUG9do=",
   "success": true,
   "projectFilePath": "C:\\Users\\Shush\\Desktop\\Multiplayer_Shooter\\Nexus\\Intermediate\\Build\\BuildRulesProjects\\NexusModuleRules\\NexusModuleRules.csproj",
   "expectedPackageFiles": [
@@ -58,10 +58,13 @@
     "C:\\packages\\sqlitepclraw.lib.e_sqlite3\\2.1.11\\sqlitepclraw.lib.e_sqlite3.2.1.11.nupkg.sha512",
     "C:\\packages\\sqlitepclraw.provider.e_sqlite3\\2.1.11\\sqlitepclraw.provider.e_sqlite3.2.1.11.nupkg.sha512",
     "C:\\packages\\system.codedom\\10.0.6\\system.codedom.10.0.6.nupkg.sha512",
+    "C:\\packages\\system.collections.immutable\\8.0.0\\system.collections.immutable.8.0.0.nupkg.sha512",
     "C:\\packages\\system.configuration.configurationmanager\\10.0.1\\system.configuration.configurationmanager.10.0.1.nupkg.sha512",
     "C:\\packages\\system.diagnostics.eventlog\\10.0.6\\system.diagnostics.eventlog.10.0.6.nupkg.sha512",
     "C:\\packages\\system.io.hashing\\10.0.6\\system.io.hashing.10.0.6.nupkg.sha512",
     "C:\\packages\\system.management\\10.0.6\\system.management.10.0.6.nupkg.sha512",
+    "C:\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\packages\\system.reflection.metadata\\8.0.0\\system.reflection.metadata.8.0.0.nupkg.sha512",
     "C:\\packages\\system.reflection.metadataloadcontext\\10.0.1\\system.reflection.metadataloadcontext.10.0.1.nupkg.sha512",
     "C:\\packages\\system.security.cryptography.protecteddata\\10.0.1\\system.security.cryptography.protecteddata.10.0.1.nupkg.sha512",
     "C:\\packages\\system.security.permissions\\10.0.6\\system.security.permissions.10.0.6.nupkg.sha512",

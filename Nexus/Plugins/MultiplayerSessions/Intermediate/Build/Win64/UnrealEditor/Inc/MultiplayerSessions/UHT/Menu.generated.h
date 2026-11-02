@@ -12,12 +12,13 @@
 #define MULTIPLAYERSESSIONS_Menu_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 // ********** Begin Class UMenu ********************************************************************
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
 	DECLARE_FUNCTION(execJoinButtonClicked); \
 	DECLARE_FUNCTION(execHostButtonClicked); \
 	DECLARE_FUNCTION(execOnStartSession); \
@@ -26,20 +27,19 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	DECLARE_FUNCTION(execMenuSetup);
 
 
-MULTIPLAYERSESSIONS_API UClass* Z_Construct_UClass_UMenu_NoRegister();
+struct Z_Construct_UClass_UMenu_Statics;
+MULTIPLAYERSESSIONS_API UClass* Z_Construct_UClass_UMenu(ETypeConstructPhase);
 
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUMenu(); \
-	friend struct Z_Construct_UClass_UMenu_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend MULTIPLAYERSESSIONS_API UClass* Z_Construct_UClass_UMenu_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UMenu_Statics; \
+	friend MULTIPLAYERSESSIONS_API UClass* ::Z_Construct_UClass_UMenu(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UMenu, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MultiplayerSessions"), Z_Construct_UClass_UMenu_NoRegister) \
+	DECLARE_CLASS2(UMenu, UUserWidget, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MultiplayerSessions"), Z_Construct_UClass_UMenu) \
 	DECLARE_SERIALIZER(UMenu)
 
 
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UMenu(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	/** Deleted move- and copy-constructors, should never be used */ \
@@ -51,13 +51,13 @@ public: \
 	NO_API virtual ~UMenu();
 
 
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_13_PROLOG
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_GENERATED_BODY \
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_13_PROLOG
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_INCLASS_NO_PURE_DECLS \
-	FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_ENHANCED_CONSTRUCTORS \
+	FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_INCLASS_NO_PURE_DECLS \
+	FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -67,6 +67,6 @@ class UMenu;
 // ********** End Class UMenu **********************************************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h
+#define CURRENT_FILE_ID FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_Menu_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

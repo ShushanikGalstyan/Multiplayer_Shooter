@@ -12,46 +12,25 @@
 #define MULTIPLAYERSESSIONS_MultiplayerSessionsSubsystem_generated_h
 
 #include "UObject/ObjectMacros.h"
+#include "UObject/ReflectedTypeAccessors.h"
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
-// ********** Begin Delegate FMultiplayerOnCreateSessionComplete ***********************************
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_14_DELEGATE \
-MULTIPLAYERSESSIONS_API void FMultiplayerOnCreateSessionComplete_DelegateWrapper(const FMulticastScriptDelegate& MultiplayerOnCreateSessionComplete, bool bWasSuccessful);
-
-
-// ********** End Delegate FMultiplayerOnCreateSessionComplete *************************************
-
-// ********** Begin Delegate FMultiplayerOnDestroySessionComplete **********************************
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_17_DELEGATE \
-MULTIPLAYERSESSIONS_API void FMultiplayerOnDestroySessionComplete_DelegateWrapper(const FMulticastScriptDelegate& MultiplayerOnDestroySessionComplete, bool bWasSuccessful);
-
-
-// ********** End Delegate FMultiplayerOnDestroySessionComplete ************************************
-
-// ********** Begin Delegate FMultiplayerOnStartSessionComplete ************************************
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_18_DELEGATE \
-MULTIPLAYERSESSIONS_API void FMultiplayerOnStartSessionComplete_DelegateWrapper(const FMulticastScriptDelegate& MultiplayerOnStartSessionComplete, bool bWasSuccessful);
-
-
-// ********** End Delegate FMultiplayerOnStartSessionComplete **************************************
-
 // ********** Begin Class UMultiplayerSessionsSubsystem ********************************************
-MULTIPLAYERSESSIONS_API UClass* Z_Construct_UClass_UMultiplayerSessionsSubsystem_NoRegister();
+struct Z_Construct_UClass_UMultiplayerSessionsSubsystem_Statics;
+MULTIPLAYERSESSIONS_API UClass* Z_Construct_UClass_UMultiplayerSessionsSubsystem(ETypeConstructPhase);
 
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_INCLASS_NO_PURE_DECLS \
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesUMultiplayerSessionsSubsystem(); \
-	friend struct Z_Construct_UClass_UMultiplayerSessionsSubsystem_Statics; \
-	static UClass* GetPrivateStaticClass(); \
-	friend MULTIPLAYERSESSIONS_API UClass* Z_Construct_UClass_UMultiplayerSessionsSubsystem_NoRegister(); \
+	friend struct ::Z_Construct_UClass_UMultiplayerSessionsSubsystem_Statics; \
+	friend MULTIPLAYERSESSIONS_API UClass* ::Z_Construct_UClass_UMultiplayerSessionsSubsystem(ETypeConstructPhase); \
 public: \
-	DECLARE_CLASS2(UMultiplayerSessionsSubsystem, UGameInstanceSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MultiplayerSessions"), Z_Construct_UClass_UMultiplayerSessionsSubsystem_NoRegister) \
+	DECLARE_CLASS2(UMultiplayerSessionsSubsystem, UGameInstanceSubsystem, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/MultiplayerSessions"), Z_Construct_UClass_UMultiplayerSessionsSubsystem) \
 	DECLARE_SERIALIZER(UMultiplayerSessionsSubsystem)
 
 
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_ENHANCED_CONSTRUCTORS \
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_ENHANCED_CONSTRUCTORS \
 	/** Deleted move- and copy-constructors, should never be used */ \
 	UMultiplayerSessionsSubsystem(UMultiplayerSessionsSubsystem&&) = delete; \
 	UMultiplayerSessionsSubsystem(const UMultiplayerSessionsSubsystem&) = delete; \
@@ -61,12 +40,12 @@ public: \
 	NO_API virtual ~UMultiplayerSessionsSubsystem();
 
 
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_23_PROLOG
-#define FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_GENERATED_BODY \
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_23_PROLOG
+#define FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_INCLASS_NO_PURE_DECLS \
-	FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_ENHANCED_CONSTRUCTORS \
+	FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_INCLASS_NO_PURE_DECLS \
+	FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h_26_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -76,6 +55,6 @@ class UMultiplayerSessionsSubsystem;
 // ********** End Class UMultiplayerSessionsSubsystem **********************************************
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Practice_MP_Test_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h
+#define CURRENT_FILE_ID FID_Users_Shush_Desktop_Multiplayer_Shooter_Nexus_Plugins_MultiplayerSessions_Source_MultiplayerSessions_Public_MultiplayerSessionsSubsystem_h
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
